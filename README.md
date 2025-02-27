@@ -1,16 +1,69 @@
-# rent_wheelz
+# goDrive
 
-A new Flutter project.
+goDrive is a Flutter application that allows users to search for rental cars seamlessly. The app
+integrates Google Places for autofilling search fields, Google Maps for pinpointing exact locations,
+and a date picker for selecting rental periods. Instead of displaying rental listings in-app,
+goDrive redirects users to a mobile browser with search results.
 
-## Getting Started
+## ✨ Features
 
-This project is a starting point for a Flutter application.
+- **🌙 Auto Dark Mode & Light Mode**
+    - The app automatically adapts to the device's system theme.
 
-A few resources to get you started if this is your first Flutter project:
+- **📍 Google Places Autofill**
+    - Users can quickly search for car rentals with autofill suggestions powered by Google Places.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **🗺️ Google Maps Integration**
+    - The app provides precise location selection using Google Maps.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **📆 Date Picker**
+    - Users can select rental dates using an intuitive date picker.
+
+- **🌐 Browser Redirection**
+    - Once a search is performed, results open directly in a mobile browser for booking.
+
+- **🚀 Automatic GitHub Release**
+    - The project includes a **GitHub Actions workflow** that builds the APK and automatically
+      creates a new release.
+
+## 🚀 Installation
+
+1. Clone the repository:
+
+   ```sh
+   git clone https://github.com/amal-r952/goDrive.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```sh
+   cd goDrive
+   ```
+
+3. Install dependencies:
+
+   ```sh
+   flutter pub get
+   ```
+
+4. Run the app:
+
+   ```sh
+   flutter run
+   ```
+
+## 📦 Build APK
+
+To build the APK manually, run:
+
+```sh
+flutter build apk
+```
+
+## 👨‍💻 Author
+
+**Amal Reji** – Flutter Developer
+
+## 📜 License
+
+This project is open-source and available under the MIT License.

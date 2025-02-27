@@ -221,7 +221,13 @@ class _LocationPickerScreenState extends State<LocationPickerScreen> {
                 ),
               ),
               child: TextFormField(
-                cursorColor: Colors.black,
+                style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                      fontSize: 14,
+                      color: Theme.of(context).dividerColor,
+                      fontWeight: FontWeight.w400,
+                      fontFamily: FontFamily.gothamBook,
+                    ),
+                cursorColor: AppColors.primaryColorDark,
                 controller: searchQueryController,
                 decoration: InputDecoration(
                   hintText: "Search the location",

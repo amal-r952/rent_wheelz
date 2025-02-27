@@ -153,7 +153,7 @@ class _CarRentalSearchScreenState extends State<CarRentalSearchScreen> {
                   padding: const EdgeInsets.all(12.0),
                   decoration: BoxDecoration(
                     color: Theme.of(context).cardColor,
-                    borderRadius: BorderRadius.circular(8.0),
+                    borderRadius: BorderRadius.circular(12.0),
                   ),
                   child: Align(
                     alignment: Alignment.centerLeft,
@@ -189,7 +189,7 @@ class _CarRentalSearchScreenState extends State<CarRentalSearchScreen> {
                   padding: const EdgeInsets.all(12.0),
                   decoration: BoxDecoration(
                     color: Theme.of(context).cardColor,
-                    borderRadius: BorderRadius.circular(8.0),
+                    borderRadius: BorderRadius.circular(12.0),
                   ),
                   child: Align(
                     alignment: Alignment.centerLeft,
