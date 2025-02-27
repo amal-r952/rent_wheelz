@@ -34,6 +34,6 @@ jobs:
         with:
           artifacts: "build/app/outputs/flutter-apk/*.apk"
           tag: v1.0.${{ github.run_number }}
-          token: ${{ secrets.TOKEN }}
+          token: ${{ secrets.TOKEN_2 }}
           name: "Release v1.0.${{ github.run_number }}"
           body: "This release contains the latest debug APKs for different ABIs."
