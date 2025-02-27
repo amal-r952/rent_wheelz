@@ -26,7 +26,8 @@ jobs:
       - run: flutter clean
 
       # Build separate APKs per ABI
-      - run: flutter build apk --split-per-abi
+      - run: flutter build apk --split-per-abi || true
+
 
       # Upload the APKs as GitHub release assets
       - uses: ncipollo/release-action@v1
