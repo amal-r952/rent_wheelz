@@ -26,6 +26,11 @@ goDrive redirects users to a mobile browser with search results.
     - The project includes a **GitHub Actions workflow** that builds the APK and automatically
       creates a new release.
 
+## Video
+
+https://drive.google.com/file/d/1ilJsxQiKP-aC1Pqytv_rhVWq3UzENiPb/view?usp=drive_link
+
+
 ## 🚀 Installation
 
 1. Clone the repository:
