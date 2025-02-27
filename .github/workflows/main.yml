@@ -1,13 +1,14 @@
-name: CI
-
 on:
   push:
     branches:
       - main
+      - master
+
+name: Build and Release APKs
 
 jobs:
-  build_androidApk:
-    name: Build Flutter App (Android)
+  build:
+    name: Build & Release APKs
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
