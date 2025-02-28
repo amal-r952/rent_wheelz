@@ -37,7 +37,7 @@ goDrive redirects users to a mobile browser with search results.
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/amal-r952/goDrive.git
+   git clone https://github.com/amal-r952/rent_wheelz.git
    ```
 
 2. Navigate to the project directory:
